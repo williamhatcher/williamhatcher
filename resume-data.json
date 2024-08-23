@@ -1,0 +1,226 @@
+{
+  "basics": {
+    "name": "William Hatcher",
+    "nameKerned": [
+      { "character": "W", "letterSpacing": "-0.00em" },
+      { "character": "i", "letterSpacing": "-0.00em" },
+      { "character": "l", "letterSpacing": "-0.00em" },
+      { "character": "l", "letterSpacing": "-0.00em" },
+      { "character": "i", "letterSpacing": "-0.00em" },
+      { "character": "a", "letterSpacing": "-0.00em" },
+      { "character": "m", "letterSpacing": "-0.00em" },
+      " ",
+      { "character": "H", "letterSpacing": "-0.00em" },
+      { "character": "a", "letterSpacing": "-0.00em" },
+      { "character": "t", "letterSpacing": "-0.00em" },
+      { "character": "c", "letterSpacing": "-0.00em" },
+      { "character": "h", "letterSpacing": "-0.00em" },
+      { "character": "e", "letterSpacing": "-0.00em" },
+      "r"
+    ],
+    "label": "System Architect & Software Developer",
+    "picture": "https://secure.gravatar.com/avatar/701711a6a90810d15cbd4d8711488cf0?s=800&d=robohash",
+    "email": "william@hatcher.work",
+    "website": "https://hatcher.work",
+    "objective": "Accomplished developer with a focus on customer experience in software and communication. Possesses 3+ years of experience in large software projects, and contributions to over a dozen open source projects.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "williamhatcher",
+        "url": "https://github.com/williamhatcher"
+      },
+      {
+        "network": "Discord",
+        "username": "William_CTO#5415"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "company": "iSTAR Lab @ Texas A&M University",
+      "summary": "",
+      "highlights": [
+      ],
+      "position": "System Architect",
+      "startDate": "2022-08-01",
+      "tags": [
+      ]
+    },
+    {
+      "company": "Mr. Translate",
+      "website": "https://mrtranslate.bot/",
+      "summary": "Creator of the best Discord translate bot",
+      "highlights": [
+        "Combined multiple ML translation services to support 120+ languages.",
+        "Learned MongoDB management skills through deploying a secured MongoDB server.",
+        "Built a robust Python application to translate 10 million monthly characters across nearly 20 thousand servers.",
+        "Leveraged a Redis cache to cut resource utilization in half."
+      ],
+      "position": "Owner",
+      "startDate": "2021-03-01",
+      "endDate": "2024-06-30",
+      "tags": [
+        {
+          "display": "Python",
+          "website": "https://python.org/"
+        },
+        {
+          "display": "Discord Bot Development",
+          "website": "https://discord.com/developers/docs/intro"
+        },
+        {
+          "display": "FastAPI",
+          "website": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "display": "MongoDB",
+          "website": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "display": "Redis",
+          "website": "https://redis.io"
+        },
+        { "display": "REST APIs" }
+      ]
+    },
+    {
+      "company": "Resident Assistant at Blinn College",
+      "summary": "Assisted hall directors in day-to-day tasks, aided in creating a positive learning and living environment through student engagement, social and educational programming, and acting as a point of contact for residents.",
+      "highlights": [
+        "Developed and ran 4 successful student engagement programs",
+        "Contributed ideas to improve residence experience and RA satisfaction",
+        "Learned effective communication skills by engaging with students throughout both semesters.",
+        "Created a website to track RA performance points during the semester which was used daily."
+      ],
+      "position": "Resident Assistant",
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01",
+      "tags": [
+        {"display": "Customer Service"},
+        { "display": "Time Management" },
+        { "display": "Adaptability" },
+        { "display": "Personal & Professional Organizational Skills"}
+      ]
+    },
+    {
+      "company": "Support.com",
+      "website": "https://www.support.com/",
+      "summary": "",
+      "position": "Tier II Network Tech Support for Comcast",
+      "startDate": "2019-01-15",
+      "endDate": "2019-08-01",
+      "type": "parttime"
+    },
+    {
+      "company": "Kroger",
+      "website": "https://www.kroger.com/",
+      "summary": "",
+      "position": "Electronics, School Supplies, and Toys Associate",
+      "startDate": "2017-11-15",
+      "endDate": "2019-01-01",
+      "type": "parttime"
+    },
+    {
+      "company": "Whataburger",
+      "website": "https://www.whataburge.com/",
+      "summary": "",
+      "position": "Service Ambassador",
+      "startDate": "2016",
+      "endDate": "2018",
+      "type": "parttime"
+    }
+  ],
+"projects": [
+  {
+    "name": "Wheeler Points",
+    "description": "Leaderboard website which tracks positive and negative performance points given to RAs.",
+    "highlights": [
+      "RAs can log in to see reasons for points given and taken",
+      "Admin interface to add point entries",
+      "Can be generalized to provide a private leaderboard for any usecase",
+      "Code available upon request"
+    ],
+    "keywords": [
+      "Django",
+      "Hosted on Heroku"
+    ]
+  }
+],
+"education": [
+  {
+    "institution": "Texas A&M University - Commerce",
+    "website": "https://www.tamuc.edu/",
+    "startDate": "2022-08-01",
+    "endDate": "2024-12-13",
+    "area": "Computer Information Systems",
+    "studyType": "Bachelor"
+  },
+  {
+    "institution": "Blinn College",
+    "website": "https://blinn.edu/",
+    "startDate": "2020-08-01",
+    "endDate": "2022-05-01",
+    "area": "Computer Information Systems",
+    "studyType": "Associates"
+  }
+],
+"skills": [
+  {
+    "name": "Languages",
+    "keywords": [
+      {
+        "display": "Python",
+        "website": "https://www.python.org/"
+      },
+      {
+        "display": "Swift",
+        "website": "https://www.swift.org/"
+      },
+      {
+        "display": "Rust",
+        "level": "Learning",
+        "website": "https://www.rust-lang.org/"
+      },
+      {
+        "display": "Nim",
+        "website": "https://nim-lang.org/"
+      },
+      {
+        "display": "JavaScript"
+      },
+      {
+        "display": "TypeScript"
+      }
+    ]
+  },
+  {
+    "name": "Frameworks",
+    "keywords": [
+      {
+        "display": "FastAPI",
+        "website": "https://fastapi.tiangolo.com/"
+      },
+      {
+        "display": "Flask",
+        "website": "https://flask.palletsprojects.com/"
+      },
+      {
+        "display": "Django",
+        "website": "https://www.djangoproject.com/"
+      },
+      {
+        "display": "Pycord/discord.py",
+        "website": "https://pycord.dev/"
+      },
+      {
+        "display": "Svelte & SvelteKit",
+        "website": "https://svelte.dev/"
+      }
+    ]
+  }
+],
+"meta": {
+  "theme": "onepage"
+}
+}

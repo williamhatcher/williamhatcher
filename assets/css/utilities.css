@@ -1,0 +1,10 @@
+@tailwind utilities;
+@responsive {
+  .w-paper {
+    width: 8.5in;
+  }
+
+  .h-paper {
+    height: 11in;
+  }
+}
