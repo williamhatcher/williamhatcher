@@ -86,7 +86,7 @@ export default {
     gitlabCi: {
       timestamp: new Date().toISOString(),
       projectUrl: process.env.CI_PROJECT_URL,
-      commitSha: process.env.CI_COMMIT_SHORT_SHA,
+      commitSha: process.env.GITHUB_SHA
     },
   }
 }

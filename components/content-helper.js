@@ -61,7 +61,7 @@ const getWorkInfo = (resumeData, filterFn) => {
 export const getProfessionalWorkInfo = resumeData => {
   return getWorkInfo(
     resumeData,
-    w => !['parttime', 'internship'].includes(w.type),
+    w => !['parttime', 'internship'].includes(w.type) && !['hidden'].includes(w.display)
   );
 };
 

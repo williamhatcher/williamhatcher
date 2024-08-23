@@ -5,22 +5,17 @@
       <a :href="commitLink">{{ commitSha }}</a>
     </span>
     <span v-else class="mr-2">Running locally</span>
+    <img
+      class="inline h-5 -mt-1"
+      :src="pipelineStatusUrl"
+      alt="GitHub build status"
+    />
     <a
-      class="mr-2"
-      href="https://gitlab.com/nfriend/nuxt-resume/pipelines/latest"
-    >
-      <img
-        class="inline h-5 -mt-1"
-        :src="pipelineStatusUrl"
-        alt="GitLab build status"
-      />
-    </a>
-    <a
-      href="https://gitlab.com/nfriend/nuxt-resume"
+      href="https://github.com/williamhatcher/williamhatcher"
       class="inline-flex items-center"
     >
-      View the source on GitLab
-      <Icon class="ml-1" type="gitlab" />
+      View the source on GitHub
+      <Icon class="ml-1" type="github" />
     </a>
   </div>
 </template>
@@ -50,7 +45,7 @@ export default {
   },
   methods: {
     refreshPipelineStatus() {
-      this.pipelineStatusUrl = `https://gitlab.com/nfriend/nuxt-resume/badges/master/pipeline.svg#${Date.now()}`;
+      this.pipelineStatusUrl = "https://img.shields.io/github/actions/workflow/status/williamhatcher/williamhatcher/pages.yml"
     },
   },
 };
