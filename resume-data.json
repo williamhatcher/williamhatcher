@@ -18,7 +18,7 @@
       { "character": "e", "letterSpacing": "-0.00em" },
       "r"
     ],
-    "label": "System Architect & Software Developer",
+    "label": "System Engineer & Software Developer",
     "picture": "https://secure.gravatar.com/avatar/701711a6a90810d15cbd4d8711488cf0?s=800&d=robohash",
     "email": "william@hatcher.work",
     "website": "https://hatcher.work",
@@ -39,7 +39,7 @@
   "work": [
     {
       "company": "iSTAR Lab @ Texas A&M University",
-      "summary": "System Architect for cybersecurity research lab at Texas A&M University. Led multiple teams in software development and virtualization clusters.",
+      "summary": "System Engineer for cybersecurity research lab at Texas A&M University. Led multiple teams in software development and virtualization clusters.",
       "highlights": [
         "Deployed and maintained over 10 servers and desktops running Linux and Windows.",
         "Managed various VM deployments for short- and long-term research projects",
@@ -48,7 +48,7 @@
         "Designed and developed a robust, multi-node cyber range on Proxmox.",
         "Full stack developer with experience in various front-end, back-end technologies, multiple DB engines (SQL and No-SQL), and security and monitoring."
       ],
-      "position": "System Architect",
+      "position": "System Engineer",
       "startDate": "2022-08-01",
       "tags": [
         "Virtualization", "Network Admin", "System Admin", "Full Stac Dev", "Leadership"
