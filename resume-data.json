@@ -39,12 +39,19 @@
   "work": [
     {
       "company": "iSTAR Lab @ Texas A&M University",
-      "summary": "",
+      "summary": "System Architect for cybersecurity research lab at Texas A&M University. Led multiple teams in software developmentand virtualization clusters.",
       "highlights": [
+        "Deployed and maintained over 10 servers and desktops running Linux and Windows.",
+        "Managed various VM deployments for short- and long-term research projects",
+        "Designed and implemented the lab's network architecture including VPN tunnels, VLANs, firewall ACLs, and L3 switch configs on <b>Cisco gear</b> and <b>pfSense/OPNsense firewalls</b>.",
+        "Led a five person team developing CyberExpert: a tool for managing virtual labs in academia.",
+        "Designed and developed a robust, multi-node cyber range on Proxmox.",
+        "Full stack developer with experience in various front-end, back-end technologies, multiple DB engines (SQL and No-SQL), and security and monitoring."
       ],
       "position": "System Architect",
       "startDate": "2022-08-01",
       "tags": [
+        "Virtualization", "Network Admin", "System Admin", "Full Stac Dev", "Leadership"
       ]
     },
     {
@@ -85,6 +92,7 @@
       ]
     },
     {
+      "display": "hidden",
       "company": "Resident Assistant at Blinn College",
       "summary": "Assisted hall directors in day-to-day tasks, aided in creating a positive learning and living environment through student engagement, social and educational programming, and acting as a point of contact for residents.",
       "highlights": [
@@ -144,6 +152,21 @@
     "keywords": [
       "Django",
       "Hosted on Heroku"
+    ]
+  },
+  {
+    "name": "CyberExpert",
+    "description": "Virtual lab management software for academica developed at iSTAR.",
+    "highlights": [
+      "Project Manager of five person cross-functional team.",
+      "Modular hypervisor interface to enable support for multiple hypervisors.",
+      "Developed with Supabase.",
+      "Supports SSO."
+    ],
+    "keywords": [
+      "TypeScript",
+      "SvelteKit",
+      "Supabase"
     ]
   }
 ],
