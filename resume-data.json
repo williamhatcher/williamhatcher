@@ -42,12 +42,11 @@
       "company": "iSTAR Lab @ Texas A&M University",
       "summary": "System Engineer for cybersecurity research lab at Texas A&M University. Led multiple teams in software development and virtualization clusters.",
       "highlights": [
-        "Deployed and maintained over 10 servers and desktops running Linux and Windows.",
-        "Managed various VM deployments for short- and long-term research projects",
-        "Designed and implemented the lab's network architecture including VPN tunnels, VLANs, firewall ACLs, and L3 switch configs on <b>Cisco gear</b> and <b>pfSense/OPNsense firewalls</b>.",
-        "Led a five person team developing CyberExpert: a tool for managing virtual labs in academia.",
-        "Designed and developed a robust, multi-node cyber range on Proxmox.",
-        "Full stack developer with experience in various front-end, back-end technologies, multiple DB engines (SQL and No-SQL), and security and monitoring."
+        "Project lead on a five person team developing CyberExpert: a tool for managing virtual labs for students in academia.",
+        "Designed and led team to build our production level, multi-node virtualization cluster on Proxmox supporting 20+ concurrent virtual machines for short- and long-term projects.",
+        "Designed and implemented our lab's enterprise network architecture with  VPN tunnels, VLANs, firewall ACLs, and Layer 3 switch configs on Cisco Catalyst switches, Cisco ASA firewalls, and pfSense/OPNsense firewalls.",
+        "Deployed and maintained over 10 enterprise servers and desktops running Linux and Windows.",
+        "Full stack developer with experience in various front-end, back-end technologies, multiple database (DB) engines (SQL and No-SQL), and security and monitoring."
       ],
       "position": "System Engineer",
       "startDate": "2022-08-01",
@@ -60,7 +59,7 @@
       "website": "https://mrtranslate.bot/",
       "summary": "Creator of the best Discord translate bot",
       "highlights": [
-        "Combined multiple ML translation services to support 120+ languages.",
+        "Combined multiple AI & machine learning translation services to support 120+ languages.",
         "Learned MongoDB management skills through deploying a secured MongoDB server.",
         "Built a robust Python application to translate 10 million monthly characters across nearly 20 thousand servers.",
         "Leveraged a Redis cache to cut resource utilization in half."

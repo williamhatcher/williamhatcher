@@ -85,7 +85,7 @@ export default {
     isProduction: Boolean(process.env.CI),
     gitlabCi: {
       timestamp: new Date().toISOString(),
-      projectUrl: process.env.CI_PROJECT_URL,
+      projectUrl: process.env.GITHUB_REPOSITORY,
       commitSha: process.env.GITHUB_SHA
     },
   }
