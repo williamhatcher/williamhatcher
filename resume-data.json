@@ -22,7 +22,8 @@
     "picture": "https://secure.gravatar.com/avatar/701711a6a90810d15cbd4d8711488cf0?s=800&d=robohash",
     "email": "william@hatcher.work",
     "website": "https://hatcher.work",
-    "objective": "Accomplished developer with a focus on customer experience in software and communication. Possesses 3+ years of experience in large software projects, and contributions to over a dozen open source projects.",
+    "objective": "Experienced System and Network Engineer skilled in Linux server management, type 1 & 2 hypervisors, multi-LAN networks, and Cisco device configuration. Accomplished full-stack developer leading multiple large software projects and contributions to over a dozen open source projects.",
+    "objective.old": "Accomplished developer with a focus on customer experience in software and communication. Possesses 3+ years of experience in large software projects, and contributions to over a dozen open source projects.",
     "profiles": [
       {
         "network": "GitHub",
@@ -166,18 +167,20 @@
     "keywords": [
       "TypeScript",
       "SvelteKit",
-      "Supabase"
+      "Supabase",
+      "PostgreSQL"
     ]
   }
 ],
 "education": [
   {
-    "institution": "Texas A&M University - Commerce",
+    "institution": "Texas A&M University - Commerce @ RELLIS",
     "website": "https://www.tamuc.edu/",
     "startDate": "2022-08-01",
     "endDate": "2024-12-13",
     "area": "Computer Information Systems",
-    "studyType": "Bachelor"
+    "studyType": "Bachelor",
+    "gpa": "3.28"
   },
   {
     "institution": "Blinn College",
