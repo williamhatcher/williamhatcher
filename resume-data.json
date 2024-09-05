@@ -40,13 +40,13 @@
   "work": [
     {
       "company": "iSTAR Lab @ Texas A&M University",
-      "summary": "System Engineer for cybersecurity research lab at Texas A&M University. Led multiple teams in software development and virtualization clusters.",
+      "summary": "System Engineer for cybersecurity research lab. Led multiple teams in software development and virtualization clusters.",
       "highlights": [
         "Project lead on a five person team developing CyberExpert: a tool for managing virtual labs for students in academia.",
         "Designed and led team to build our production level, multi-node virtualization cluster on Proxmox supporting 20+ concurrent virtual machines for short- and long-term projects.",
         "Designed and implemented our lab's enterprise network architecture with  VPN tunnels, VLANs, firewall ACLs, and Layer 3 switch configs on Cisco Catalyst switches, Cisco ASA firewalls, and pfSense/OPNsense firewalls.",
         "Deployed and maintained over 10 enterprise servers and desktops running Linux and Windows.",
-        "Full stack developer with experience in various front-end, back-end technologies, multiple database (DB) engines (SQL and No-SQL), and security and monitoring."
+        "Full stack developer with experience in various front-end, back-end technologies, and multiple database (DB) engines (SQL and No-SQL)."
       ],
       "position": "System Engineer",
       "startDate": "2022-08-01",
@@ -57,7 +57,7 @@
     {
       "company": "Mr. Translate",
       "website": "https://mrtranslate.bot/",
-      "summary": "Creator of the best Discord translate bot",
+      "summary": "Creator of the best Discord translate bot.",
       "highlights": [
         "Combined multiple AI & machine learning translation services to support 120+ languages.",
         "Learned MongoDB management skills through deploying a secured MongoDB server.",
@@ -71,10 +71,6 @@
         {
           "display": "Python",
           "website": "https://python.org/"
-        },
-        {
-          "display": "Discord Bot Development",
-          "website": "https://discord.com/developers/docs/intro"
         },
         {
           "display": "FastAPI",

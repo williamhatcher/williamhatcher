@@ -1,12 +1,12 @@
 <template>
-  <div class="flex mt-4 flex-col md:flex-row print:flex-row">
+  <div class="flex mt-0 flex-col md:flex-row print:flex-row">
     <template v-for="(column, columnIndex) in columns">
       <div class="flex-1">
         <section
           v-for="(section, sectionIndex) in column.sections"
           :key="sectionIndex"
         >
-          <h2 class="font-bold uppercase text-gray-700 text-sm mb-4">
+          <h2 class="font-bold uppercase text-gray-700 text-sm mb-2">
             {{ section.title }}
           </h2>
 
