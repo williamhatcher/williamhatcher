@@ -35,7 +35,7 @@ export default {
       .utc()
       .format('Y/MM/DD \\a\\t HH:mm:ss z');
     this.commitSha = process.env.gitlabCi.commitSha;
-    this.commitLink = `${process.env.gitlabCi.projectUrl}/commit/${this.commitSha}`;
+    this.commitLink = `https://github.com/${process.env.gitlabCi.projectUrl}/commit/${this.commitSha}`;
 
     this.timeout = setInterval(this.refreshPipelineStatus, 5000);
     this.refreshPipelineStatus();
