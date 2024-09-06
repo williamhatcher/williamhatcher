@@ -98,6 +98,10 @@ export default {
               subsections: helpers.getEducationInfo(this.resumeData),
             },
             {
+              title: 'Certificates',
+              subsections: helpers.getCertsInfo(this.resumeData),
+            },
+            {
               title: 'Skills',
               subsections: helpers.getSkillsInfo(this.resumeData),
             },

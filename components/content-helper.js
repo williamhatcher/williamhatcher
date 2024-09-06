@@ -107,6 +107,16 @@ export const getSkillsInfo = resumeData => {
   }));
 };
 
+export const getCertsInfo = resumeData => {
+  console.log(resumeData.certificates);
+  return resumeData.certificates.map(s => ({
+    title: s.name + ' - ' + (s.expires ? 'Expires': 'Expected' ) + ': ' + s.date,
+    date: s.date,
+    issuer: s.issuer,
+    url: s.url
+  }));
+};
+
 /**
  * Transforms any projects info in the resume JSON data
  * into an array of section objects usable by `Content.vue`.

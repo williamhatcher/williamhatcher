@@ -142,10 +142,9 @@
     "highlights": [
       "RAs can log in to see reasons for points given and taken",
       "Admin interface to add point entries",
-      "Can be generalized to provide a private leaderboard for any usecase",
-      "Code available upon request"
+      "Can be generalized to provide a private leaderboard for any usecase"
     ],
-    "keywords": [
+    "keywords.2": [
       "Django",
       "Hosted on Heroku"
     ]
@@ -184,6 +183,14 @@
     "endDate": "2022-05-01",
     "area": "Computer Information Systems",
     "studyType": "Associates"
+  }
+],
+"certificates": [
+  {
+    "name": "CCNA",
+    "date": "Dec 2024",
+    "issuer": "Cisco",
+    "url": ""
   }
 ],
 "skills": [
