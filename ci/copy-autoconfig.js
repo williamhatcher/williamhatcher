@@ -17,7 +17,7 @@ fs.readdir('.', (err, files) => {
 });
 
 console.log("Copying autoconfig");
-fs.copyFile('./autoconfig.xml', 'dist/.well-known/autoconfig/mail/config-v1.1.xml', (err) => {
+fs.copyFile('autoconfig.xml', 'dist/.well-known/autoconfig/mail/config-v1.1.xml', (err) => {
   if (err) throw err;
   console.log("Copied!");
 });
