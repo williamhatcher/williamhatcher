@@ -14,6 +14,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "strip-scripts": "ci/strip-script-elements.js",
+    "copy-autoconfig": "ci/copy-autoconfig.js",
     "resume.json": "ci/generate-resume.json.js",
     "prepare-for-pdf": "yarn generate && yarn strip-scripts"
   },
