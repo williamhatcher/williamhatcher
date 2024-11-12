@@ -2,9 +2,11 @@
 
 /* add thunderbird autoconfig xml to dist directory */
 const fs = require('fs');
+const path = require('path');
+const autoconfigPath = path.join(__dirname, '../autoconfig.xml');
 
 console.log("Creating dir");
-fs.mkdir('dist/.well-known/autoconfig/mail', {recursive: true}, (err) => {
+fs.mkdir(path.join(__dirname, '../dist/.well-known/autoconfig/mail'), {recursive: true}, (err) => {
   if (err) throw err;
   console.log("dir created");
 });
@@ -17,7 +19,7 @@ fs.readdir('.', (err, files) => {
 });
 
 console.log("Copying autoconfig");
-fs.copyFile('autoconfig.xml', 'dist/.well-known/autoconfig/mail/config-v1.1.xml', (err) => {
+fs.copyFile(autoconfigPath, path.join(__dirname,'../dist/.well-known/autoconfig/mail/config-v1.1.xml'), (err) => {
   if (err) throw err;
   console.log("Copied!");
 });

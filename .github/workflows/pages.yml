@@ -77,11 +77,12 @@ jobs:
         run: |
           ${{ steps.detect-package-manager.outputs.manager }} run generate
           ${{ steps.detect-package-manager.outputs.manager }} run strip-scripts
-          ${{ steps.detect-package-manager.outputs.manager }} run copy-autoconfig
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
       - name: Generate PDF
         run: ci/generate-pdf.sh
+      - name: Copy autoconfig.xml
+        run: ci/copy-autoconfig.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
