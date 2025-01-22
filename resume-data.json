@@ -168,13 +168,21 @@
 ],
 "education": [
   {
+    "institution": "Texas A&M University",
+    "website": "https://tamu.edu/",
+    "startDate": "2025-01-13",
+    "endDate": "2027-12-13",
+    "area": "Engineering Technology",
+    "studyType": "Master"
+  },
+  {
     "institution": "Texas A&M University - Commerce @ RELLIS",
     "website": "https://www.tamuc.edu/",
     "startDate": "2022-08-01",
     "endDate": "2024-12-13",
     "area": "Computer Information Systems",
     "studyType": "Bachelor",
-    "gpa": "3.28"
+    "gpa": "3.5"
   },
   {
     "institution": "Blinn College",
@@ -183,14 +191,6 @@
     "endDate": "2022-05-01",
     "area": "Computer Information Systems",
     "studyType": "Associates"
-  }
-],
-"certificates": [
-  {
-    "name": "CCNA",
-    "date": "Dec 2024",
-    "issuer": "Cisco",
-    "url": ""
   }
 ],
 "skills": [
